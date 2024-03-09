@@ -111,7 +111,7 @@ header{
 
 button{
     padding: 10px 20px;
-    background-color: black;
+    background-color: #333;
     color:white;
     border:none;
     cursor:pointer;
@@ -127,6 +127,11 @@ button:hover{
 .boxchat, .searchbar, .iconMenu{
     width:25px;
     margin-left: 20px;
+    color:white;
 }
 
-
+table, th, td {
+    border:1px solid black;
+    background-color: white;
+    color: black;
+}
