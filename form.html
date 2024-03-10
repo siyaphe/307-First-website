@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lamborghini Purchase Inquiry</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="firstContainer">
+            <h2>Lamborghini Purchase Inquiry</h2>
+            <form action="submit_inquiry.php" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+            
+                <label for="model">Model of Interest:</label>
+                <select id="model" name="model">
+                    <option value="Revuelto">REVUELTO</option>
+                    <option value="Huracan">Huracan</option>
+                    <option value="Urus">Urus</option>
+                    <option value="Other">Other</option>
+                </select><br><br>
+            
+                <label for="message">Message:</label><br>
+                <!-- <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br> -->
+            
+                <input type="submit" value="Submit Inquiry">
+            </form><br><br>
+        </div>
+        <hr>
+        <hr>
+
+        <div class="">
+            <h1>This is the Second Form</h1>
+        </div>
+        <hr>
+        <hr>
+        
+
+        
+
+        <div class="SecondContainer">
+            <h2>Login</h2>
+            <form action="login.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+        
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
