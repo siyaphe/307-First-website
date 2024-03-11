@@ -61,7 +61,6 @@
     .lowContainer,
     .pContainer {   
         width: 50%;
-        /* float: left; */
         margin-bottom: 20px;
     }
     .lamb{
@@ -85,8 +84,10 @@
    .lowContainer,
    .pContainer {
        width: 100%;
-       margin-bottom: 20px;  
+       margin-bottom: 20px; 
+
    }
+   
    .lamb {
        width: 100%;
    }
@@ -124,6 +125,9 @@
     padding: 0;
     /* background-color: black; */
 
+}
+.pContainer, h3{
+    text-align:center;
 }
 
 li, a, button{
@@ -304,21 +308,26 @@ input[type="submit"]:hover {
 
 }
 .firstContainer {
-    border: solid black;
-    
-    margin-bottom: 50px;
+    border: solid rgb(208, 208, 225);
+    margin: 2em;
+    height:102vh;
+    /* margin-bottom: 50px; */
+    padding:80px;
+}
 
-    }
 
-form{
-    margin-bottom: 50px;
-    }
+
+.form{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+}
 
 .SecondContainer{
-    border: solid black;
-    
-    padding-top: 50px;
-    
-    }
+    border: solid rgb(208, 208, 225);
+    margin: 2em;
+    height: 52vh;
+    padding:80px 
+}
 
 
