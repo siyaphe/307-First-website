@@ -90,14 +90,10 @@
    
    .lamb {
        width: 100%;
+       
    }
 
-    .menu-toggle,
-    .search-toggle,
-    .chatbox-toggle {
-        display: block;
-    }
-    
+       
     .menu {
         display: none;
     }
@@ -151,7 +147,10 @@ header{
     
 
 }
-
+.NAVBAR .img{
+    display:flex;
+    margin: 10px;
+}
 .navLink{
     list-style-type: none;
     display:flex;
@@ -204,7 +203,25 @@ table, th, td {
     overflow: hidden;
     
 }
-
+.menuNav{
+    height: 50px;
+    background-color: #333;
+    color: white;
+    font-display: white
+    
+    
+}
+.searchNav{
+    height: 50px;
+    background-color: #333;
+    color:white;
+}
+.chatNav{
+    height: 50px;
+    background-color: #333;
+    color: white;
+    font-display: white;
+}
 .narbar a{
     float: left;
     display: block;
@@ -278,10 +295,7 @@ select {
     width: 100%;
 }
 
-textarea {
-    /* height: 100px;
-    resize: vertical; */
-}
+
 
 input[type="submit"] {
     background-color: #ff4500;
